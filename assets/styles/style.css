@@ -3,6 +3,9 @@
 body {
   font-family: 'Poppins', sans-serif;
 } 
+.title-section {
+  font-size: 30px;
+}
 #banner h1 {
   font-size: 4em;
 }
@@ -10,7 +13,7 @@ body {
   font-size: 2em;
   margin: 10px 0;
 }
-#banner .icon-arrow, .icon-dash {
+.icon-arrow, .icon-dash {
   font-size: 50px;
 }
 #banner h3 {
@@ -19,28 +22,20 @@ body {
   text-decoration: underline;
   cursor: pointer;
 }
-
 #about {
   min-height: 80vh;
 }
-
 #about h3 {
   font-size: 35px;
 }
-
 #about h4 {
   font-size: 20px;
 }
 #about p {
   font-size: 18px;
 }
-
 #portfolio .portfolio-image{
   box-shadow: 0 1px 15px rgba(0, 0, 0, 0.151);
-}
-
-#portfolio h3 {
-  font-size: 30px;
 }
 #portfolio h5 {
   font-weight: bold;
@@ -51,4 +46,30 @@ body {
   box-shadow: 0 1px 15px rgba(0, 0, 0, 0.151);
   background-color: white;
   padding: 20px;
+}
+#team .card.team {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+#team .card.team h5{
+  font-weight: bold;
+}
+#contact .title {
+  font-size: 30px;
+}
+div#loadingSpinner .spinner-wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+div#loadingSpinner .spinner-wrapper .spinner-grow {
+  width: 3rem;
+  height: 3rem;
 }
